@@ -22,9 +22,9 @@ const Welcome = ({navigation}) => {
         <ActionButton
           cB={colors.primary}
           instruction='Jika sudah punya akun'
-          title='Masuk'
+          title='Produk'
           onPress={() =>
-          goto('Login')}
+          goto('Produk')}
           />
         <ActionButton
           cB={colors.dark}

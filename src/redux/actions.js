@@ -21,10 +21,10 @@ export const getCities = () => {
                     payload: json
                 });
             } else {
-                console.log('Unable to fetch!');
+                alert('Unable to fetch!');
             }
         }
     } catch (error) {
-        console.log(error);
+        alert(error);
     }
 }
