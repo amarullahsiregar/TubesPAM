@@ -11,7 +11,7 @@ const initialState = {
 }
 const kotaState = {
     title : 'Salak',
-    description : 'adalah Buah bla bla bla',
+    description : 'adalah bla bla bla',
 }
 const reducer1 = (state = initialState, action) => {
     switch (action.type) {

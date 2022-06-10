@@ -21,17 +21,10 @@ const Welcome = ({navigation}) => {
         <Text style={styles.text.judul}>Welcome</Text>
         <ActionButton
           cB={colors.primary}
-          instruction='Jika sudah punya akun'
+          // instruction='Jika sudah punya akun'
           title='Produk'
           onPress={() =>
           goto('Produk')}
-          />
-        <ActionButton
-          cB={colors.dark}
-          instruction='Jika belum punya akun'
-          title='Daftar'
-          onPress={() =>
-          goto('Register')}
           />
       </View>
     )

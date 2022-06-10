@@ -14,7 +14,7 @@ const Splash = ({navigation}) => {
             
             <Image style={styles.image} source={welcomeImg} />
             <Text style={styles.text}>
-                Belanja Buah
+                Belanja Online
             </Text>
         </View>
         )

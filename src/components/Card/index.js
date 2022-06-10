@@ -15,14 +15,14 @@ const Card = ({navigation, title,price,category,description,image}) => {
         margin: 10,
         }}>
             <Image source={{uri: 'https://api.adorable.io/avatars/150/prawito@adorable.io.png'}} />
-            <Text>{image}</Text>
+            <Text>image</Text>
             <Text style={{
                 fontSize: 16,
                 color:colors.dark
             }}>{title}</Text>
-            {/*
             <Text>Harga : {price}</Text>
             <Text>Kategori : {category}</Text>
+            {/*
             <Text>{description}</Text>
             */}
             <ActionButton
